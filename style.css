@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.marquee {
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	width: 100%;
+}
+
+.marquee-inner {
+	display: flex;
+	align-items: center;
+	gap: 2vw;
+	padding: 12vh 0;
+	will-change: transform;
+}
+
+.marquee-inner img {
+	transition: transform 0.5s;
+	flex-shrink: 0;
+	width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.marquee-inner img:hover {
+	transform: scale(1.03);
+}
+h1{
+    font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff470c;
+    font-size: 65px;
+}
+.name {
+    height: 100%;
+    display: flex
+;
+    align-items: center;
+}
+.first_section {
+    /* overflow: hidden; */
+    background-image: url(./images/15847314_v960-ning-11.webp);
+
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+width: 100%;}
+    
